@@ -23,8 +23,14 @@ const skills = [
     items: [
       { name: "Git", level: 85 },
       { name: "GitHub", level: 90 },
-      { name: "VS Code", level: 95 },
-      { name: "Figma", level: 80 }
+      { name: "VS Code", level: 95 }
+    ]
+  },
+  {
+    category: "programming Languages",
+    items: [
+      { name: "C", level: 70 },
+      { name: "Java", level: 80 }
     ]
   }
 ];
