@@ -19,9 +19,9 @@ id:2,
 
 year:"2024",
 
-title:"Web Development",
+title:"Programming and frontend",
 
-subtitle:"HTML • CSS • JavaScript",
+subtitle:"HTML • CSS • JavaScript • Java",
 
 description:
 "Started frontend development and built responsive websites."
@@ -33,19 +33,19 @@ id:3,
 
 year:"2025-26",
 
-title:"React Development",
+title:"Web Development",
 
-subtitle:"React • Tailwind",
+subtitle:"React • Node.js • Express",
 
 description:
-"Built multiple React projects while learning modern frontend architecture."
+"Learned multiple React projects while learning modern frontend architecture."
 
 },
 
 {
 id:4,
 
-year:"2027",
+year:"2026-27",
 
 title:"Graduation",
 

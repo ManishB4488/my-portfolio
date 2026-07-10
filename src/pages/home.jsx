@@ -5,9 +5,11 @@ import FeaturedProjects from "../components/home/FeaturedProjects/FeaturedProjec
 import Experience from "../components/home/Experience/Experience";
 import Contact from "../components/home/contact/Contact";
 // import GitHubSection from "../components/home/github/Github";
+import PageTitle from "../components/common/PageTitle";
 function Home() {
   return (
     <>
+    <PageTitle title="Home" />
       <Hero />
       <AboutPreview />
       <Skills />

@@ -3,9 +3,10 @@ import SectionTitle from "../components/common/SectionTitle";
 
 import ContactInfo from "../components/contact/ContactInfo";
 import ContactForm from "../components/contact/ContactForm";
-
+import PageTitle from "../components/common/PageTitle";
 function Contact() {
   return (
+    <>    <PageTitle title="Contact" />
     <section className="py-24">
 
       <Container>
@@ -26,6 +27,7 @@ function Contact() {
       </Container>
 
     </section>
+    </>
   );
 }
 

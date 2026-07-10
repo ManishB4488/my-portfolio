@@ -24,23 +24,18 @@ function ContactInfo() {
 
         <div className="flex items-center gap-4">
           <Mail className="text-cyan-400" />
-          <span>yourmail@gmail.com</span>
-        </div>
-
-        <div className="flex items-center gap-4">
-          <Phone className="text-cyan-400" />
-          <span>+91 XXXXX XXXXX</span>
+          <span>bishtmanish4488@gmail.com</span>
         </div>
 
         <div className="flex items-center gap-4">
           <MapPin className="text-cyan-400" />
-          <span>India</span>
+          <span>Dehradun, India</span>
         </div>
 
         <div className="flex items-center gap-4">
           <FolderGit2 className="text-cyan-400" />
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/ManishB4488"
             target="_blank"
             rel="noreferrer"
           >
@@ -51,7 +46,7 @@ function ContactInfo() {
         <div className="flex items-center gap-4">
           <UserRound className="text-cyan-400" />
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/manish-bisht-b546592b0"
             target="_blank"
             rel="noreferrer"
           >

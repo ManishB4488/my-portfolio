@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 
 import projects from "../data/projects";
-
+import PageTitle from "../components/common/PageTitle";
 function ProjectDetails() {
   const { slug } = useParams();
 
@@ -18,6 +18,8 @@ function ProjectDetails() {
 
   if (!project) {
     return (
+      <>
+      <PageTitle title={project.title} />
       <div className="min-h-screen flex items-center justify-center text-white">
         <div className="text-center">
           <h1 className="text-5xl font-bold mb-4">
@@ -32,6 +34,7 @@ function ProjectDetails() {
           </Link>
         </div>
       </div>
+      </>
     );
   }
 

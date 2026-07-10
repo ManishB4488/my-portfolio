@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import portfolio from "../../../data/portfolio";
 import Button from "../../common/Button";
-
+import { Link } from "react-router-dom";
 function HeroContent() {
   return (
     <motion.div
@@ -11,7 +11,7 @@ function HeroContent() {
       transition={{ duration: 0.8 }}
     >
       <p className="text-cyan-400 text-lg mb-3">
-         Hello, I'm
+        Hello, I'm
       </p>
 
       <h1 className="text-5xl lg:text-7xl font-black leading-tight">
@@ -41,13 +41,19 @@ function HeroContent() {
       </p>
 
       <div className="flex flex-wrap gap-4 mt-10">
-        <Button>
-          View Projects
-        </Button>
-
-        <Button variant="secondary">
-          Download Resume
-        </Button>
+        <Link to="/projects">
+          <Button>
+            View Projects
+          </Button>
+        </Link>
+        <a
+          href="/Manish_final_resume.pdf"
+          download
+        >
+          <Button variant="secondary">
+            Download Resume
+          </Button>
+        </a>
       </div>
 
       <div className="flex gap-10 mt-14">

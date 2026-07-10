@@ -8,6 +8,8 @@ import Contact from "./pages/Contact";
 import ProjectDetails from "./pages/ProjectDetails";
 import AuroraBackground from "./components/common/AuroraBackground";
 import MouseGlow from "./components/common/MouseGlow";
+import ScrollToTopButton from "./components/common/ScrollToTopButton";
+import NotFound from "./pages/NotFound";
 function App() {
   return (
     <div className="bg-[#09090B] min-h-screen text-white relative overflow-x-hidden">
@@ -25,9 +27,11 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects/:slug" element={<ProjectDetails />} />
+
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-
+      <ScrollToTopButton />
     </div>
   );
 }

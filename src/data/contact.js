@@ -1,13 +1,11 @@
 const contact = {
-  email: "your@email.com",
+  email: "bishtmanish@email.com",
 
-  phone: "+91 XXXXX XXXXX",
+  location: "Dehradun, India",
 
-  location: "India",
+  github: "https://github.com/ManishB4488",
 
-  github: "https://github.com/yourusername",
-
-  linkedin: "https://linkedin.com/in/yourusername",
+  linkedin: "https://www.linkedin.com/in/manish-bisht-b546592b0",
 };
 
 export default contact;

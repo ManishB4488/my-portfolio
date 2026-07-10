@@ -2,9 +2,11 @@ import projects from "../data/projects";
 import ProjectCard from "../components/project/ProjectCard";
 import Container from "../components/common/Container";
 import SectionTitle from "../components/common/SectionTitle";
-
+import PageTitle from "../components/common/PageTitle";
 function Projects() {
   return (
+    <>
+      <PageTitle title="Projects" />
     <section className="py-24">
       <Container>
 
@@ -96,6 +98,7 @@ function Projects() {
 
       </Container>
     </section>
+    </>
   );
 }
 

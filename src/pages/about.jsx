@@ -2,9 +2,11 @@ import Container from "../components/common/Container";
 import SectionTitle from "../components/common/SectionTitle";
 import Button from "../components/common/Button";
 import profile from "../assets/images/profile.jpg";
-
+import PageTitle from "../components/common/PageTitle";
 function About() {
   return (
+    <>
+      <PageTitle title="About" />
     <section className="py-24">
       <Container>
 
@@ -64,7 +66,7 @@ function About() {
                   CGPA
                 </h3>
 
-                <p>8.5+</p>
+                <p>8+</p>
 
               </div>
 
@@ -90,12 +92,24 @@ function About() {
 
             </div>
 
-            <div className="mt-10">
-
-              <Button>
+            <div className="mt-12">
+              <a
+                href="/Manish_final_resume.pdf"
+                download
+                className="
+      inline-block
+      bg-cyan-500
+      hover:bg-cyan-400
+      text-black
+      px-6
+      py-3
+      rounded-xl
+      font-semibold
+      transition
+    "
+              >
                 Download Resume
-              </Button>
-
+              </a>
             </div>
 
           </div>
@@ -104,6 +118,7 @@ function About() {
 
       </Container>
     </section>
+    </>
   );
 }
 
