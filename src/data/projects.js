@@ -9,40 +9,37 @@ const projects = [
       "A modern task management application with intuitive task organization, filtering, and a responsive user interface.",
 
     overview:
-      "Advanced Task Manager is a productivity-focused web application that helps users efficiently organize and manage daily tasks. It provides an intuitive interface for creating, updating, filtering, and tracking tasks while maintaining a clean and responsive user experience.",
+      "Advanced Task Manager is a responsive task management application built using HTML, CSS, and JavaScript. It enables users to manage their daily tasks efficiently with features like CRUD operations, search, filtering, and Local Storage support.",
 
     problem:
-      "Managing daily tasks using traditional notes or basic to-do lists becomes inefficient as the number of tasks grows. This project was built to provide a structured, interactive, and user-friendly solution for task management.",
-
+      "Managing daily tasks efficiently can become difficult without a simple and organized system. This project provides an intuitive interface for creating, organizing, searching, and tracking tasks while storing data locally in the browser.",
     technologies: [
-      "React",
+      "HTML5",
+      "CSS3",
       "JavaScript",
-      "Tailwind CSS",
-      "Vite"
+      "Local Storage"
     ],
 
     features: [
-      "Create new tasks",
-      "Edit existing tasks",
-      "Delete tasks",
-      "Mark tasks as completed",
-      "Task filtering",
-      "Responsive design",
-      "Clean and modern UI"
+      "Add, edit and delete tasks",
+      "Search tasks",
+      "Filter tasks by status",
+      "Local Storage persistence",
+      "Responsive design"
     ],
 
     challenges: [
-      "Managing application state efficiently",
-      "Building reusable React components",
-      "Designing a responsive interface",
-      "Implementing task filtering logic"
+      "Implementing CRUD operations for tasks",
+      "Managing data using Local Storage",
+      "Implementing search and task filtering",
+      "Designing a responsive and user-friendly interface"
     ],
 
     learnings: [
-      "React Hooks",
-      "State Management",
-      "Component Reusability",
-      "Responsive UI Design"
+      "DOM Manipulation",
+      "CRUD Operations",
+      "Local Storage",
+      "Responsive Web Design"
     ],
 
     gallery: [
@@ -50,7 +47,7 @@ const projects = [
       "/projects/tasks-2.png",
       "/projects/tasks-3.png"
     ],
-    
+
     github:
       "https://github.com/ManishB4488/Advanced-Task-Manager",
 
