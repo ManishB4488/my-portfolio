@@ -1,7 +1,7 @@
 import Container from "../components/common/Container";
 import SectionTitle from "../components/common/SectionTitle";
 import Button from "../components/common/Button";
-import profile from "../assets/images/profile.jpg";
+import profile from "../assets/images/profile.JPG";
 import PageTitle from "../components/common/PageTitle";
 function About() {
   return (

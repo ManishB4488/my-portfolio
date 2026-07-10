@@ -1,4 +1,4 @@
-import profile from "../../../assets/images/profile.jpg";
+import profile from "../../../assets/images/profile.JPG";
 import TechBadge from "../../common/TechBadge";
 import { motion } from "framer-motion";
 
