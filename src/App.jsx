@@ -1,6 +1,6 @@
 import Navbar from "./components/layout/NavBar";
 import { Routes, Route } from "react-router-dom";
-
+import Footer from "./components/layout/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -31,6 +31,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
+      <Footer />
       <ScrollToTopButton />
     </div>
   );

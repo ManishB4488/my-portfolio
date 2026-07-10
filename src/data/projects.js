@@ -1,83 +1,64 @@
 const projects = [
   {
     id: 1,
-    slug: "dancri-ai",
+    slug: "advanced-task-manager",
 
-    title: "DanCri AI Chat",
+    title: "Advanced Task Manager",
 
     shortDescription:
-      "An AI-powered chatbot built with React and Google's Gemini API.",
+      "A modern task management application with intuitive task organization, filtering, and a responsive user interface.",
 
     overview:
-      "DanCri AI is a chatbot application that allows users to ask questions and receive intelligent responses using Google's Gemini API. The application focuses on providing a clean, responsive interface and a smooth conversational experience.",
+      "Advanced Task Manager is a productivity-focused web application that helps users efficiently organize and manage daily tasks. It provides an intuitive interface for creating, updating, filtering, and tracking tasks while maintaining a clean and responsive user experience.",
 
     problem:
-      "Many students want to explore Generative AI but find it difficult to integrate APIs into real applications. This project demonstrates API integration, asynchronous programming, and responsive frontend development.",
-
-    solution:
-      "I developed a React-based chatbot that communicates with the Gemini API, manages conversation state, displays loading animations, and provides a responsive user interface across devices.",
-
-    role:
-      "Frontend Developer",
-
-    duration:
-      "2 Weeks",
-
-    status:
-      "Completed",
+      "Managing daily tasks using traditional notes or basic to-do lists becomes inefficient as the number of tasks grows. This project was built to provide a structured, interactive, and user-friendly solution for task management.",
 
     technologies: [
       "React",
+      "JavaScript",
       "Tailwind CSS",
-      "Gemini API",
       "Vite"
     ],
 
     features: [
-      "Real-time AI conversations",
+      "Create new tasks",
+      "Edit existing tasks",
+      "Delete tasks",
+      "Mark tasks as completed",
+      "Task filtering",
       "Responsive design",
-      "Dark theme",
-      "Typing animation",
-      "Loading indicators",
-      "Clean chat interface"
+      "Clean and modern UI"
     ],
 
     challenges: [
-      "Handling asynchronous API requests",
-      "Managing chat state efficiently",
-      "Creating a responsive UI for all screen sizes"
+      "Managing application state efficiently",
+      "Building reusable React components",
+      "Designing a responsive interface",
+      "Implementing task filtering logic"
     ],
 
     learnings: [
-      "REST API Integration",
       "React Hooks",
-      "Async/Await",
       "State Management",
-      "Responsive Design"
+      "Component Reusability",
+      "Responsive UI Design"
     ],
 
-    futureImprovements: [
-      "User authentication",
-      "Chat history storage",
-      "Multiple AI models",
-      "Voice input support",
-      "Export conversations"
+    gallery: [
+      "/projects/tasks-1.png",
+      "/projects/tasks-2.png",
+      "/projects/tasks-3.png"
     ],
-
-    screenshots: [
-      "/projects/dancri-1.png",
-      "/projects/dancri-2.png",
-      "/projects/dancri-3.png"
-    ],
-
+    
     github:
-      "https://github.com/yourusername/dancri",
+      "https://github.com/ManishB4488/Advanced-Task-Manager",
 
     live:
-      "https://yourproject.vercel.app",
+      "https://ManishB4488.github.io/Advanced-Task-Manager/",
 
     image:
-      "/projects/dancri.jpg",
+      "/projects/taskmanager.png",
 
     featured: true
   }
