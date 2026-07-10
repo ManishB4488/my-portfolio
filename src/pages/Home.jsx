@@ -3,7 +3,7 @@ import AboutPreview from "../components/home/about/AboutPreview";
 import Skills from "../components/home/Skills/Skills";
 import FeaturedProjects from "../components/home/FeaturedProjects/FeaturedProjects";
 import Experience from "../components/home/Experience/Experience";
-import Contact from "../components/home/contact/Contact";
+import Contact from "../components/home/Contact/Contact";
 // import GitHubSection from "../components/home/github/Github";
 import PageTitle from "../components/common/PageTitle";
 function Home() {
