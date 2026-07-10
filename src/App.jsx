@@ -4,12 +4,17 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
-
+import ProjectDetails from "./pages/ProjectDetails";
+import AuroraBackground from "./components/common/AuroraBackground";
+import MouseGlow from "./components/common/MouseGlow";
 function App() {
   return (
-    <div className="bg-black min-h-screen text-white">
+    <div className="bg-[#09090B] min-h-screen text-white relative overflow-x-hidden">
+
+      <AuroraBackground />
+
+      <MouseGlow />
 
       <Navbar />
 
@@ -18,8 +23,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/projects/:slug" element={<ProjectDetails />} />
         </Routes>
       </main>
 

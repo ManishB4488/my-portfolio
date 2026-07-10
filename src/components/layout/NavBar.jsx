@@ -14,7 +14,7 @@ function Navbar() {
           to="/"
           className="text-2xl font-bold tracking-wide text-white"
         >
-          YourName
+          Manish
         </NavLink>
 
         <nav className="hidden md:flex gap-8">

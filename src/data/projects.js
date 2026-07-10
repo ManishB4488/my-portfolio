@@ -1,71 +1,86 @@
 const projects = [
   {
     id: 1,
+    slug: "dancri-ai",
+
     title: "DanCri AI Chat",
 
-    description:
-      "An AI powered chatbot built with React and Gemini API.",
+    shortDescription:
+      "An AI-powered chatbot built with React and Google's Gemini API.",
 
-    image: "/projects/dancri.jpg",
+    overview:
+      "DanCri AI is a chatbot application that allows users to ask questions and receive intelligent responses using Google's Gemini API. The application focuses on providing a clean, responsive interface and a smooth conversational experience.",
 
-    technologies: [
-      "React",
-      "Tailwind",
-      "Gemini API"
-    ],
+    problem:
+      "Many students want to explore Generative AI but find it difficult to integrate APIs into real applications. This project demonstrates API integration, asynchronous programming, and responsive frontend development.",
 
-    github: "https://github.com/yourusername/dancri",
+    solution:
+      "I developed a React-based chatbot that communicates with the Gemini API, manages conversation state, displays loading animations, and provides a responsive user interface across devices.",
 
-    live: "https://dancri.vercel.app",
+    role:
+      "Frontend Developer",
 
-    featured: true,
-  },
+    duration:
+      "2 Weeks",
 
-  {
-    id: 2,
-
-    title: "V-Care",
-
-    description:
-      "Hospital management and appointment booking system.",
-
-    image: "/projects/vcare.jpg",
+    status:
+      "Completed",
 
     technologies: [
       "React",
-      "Node",
-      "MongoDB"
+      "Tailwind CSS",
+      "Gemini API",
+      "Vite"
     ],
 
-    github: "",
-
-    live: "",
-
-    featured: true,
-  },
-
-  {
-    id: 3,
-
-    title: "Goodreads Clone",
-
-    description:
-      "Book review platform inspired by Goodreads.",
-
-    image: "/projects/goodreads.jpg",
-
-    technologies: [
-      "React",
-      "Firebase"
+    features: [
+      "Real-time AI conversations",
+      "Responsive design",
+      "Dark theme",
+      "Typing animation",
+      "Loading indicators",
+      "Clean chat interface"
     ],
 
-    github: "",
+    challenges: [
+      "Handling asynchronous API requests",
+      "Managing chat state efficiently",
+      "Creating a responsive UI for all screen sizes"
+    ],
 
-    live: "",
+    learnings: [
+      "REST API Integration",
+      "React Hooks",
+      "Async/Await",
+      "State Management",
+      "Responsive Design"
+    ],
 
-    featured: true,
+    futureImprovements: [
+      "User authentication",
+      "Chat history storage",
+      "Multiple AI models",
+      "Voice input support",
+      "Export conversations"
+    ],
+
+    screenshots: [
+      "/projects/dancri-1.png",
+      "/projects/dancri-2.png",
+      "/projects/dancri-3.png"
+    ],
+
+    github:
+      "https://github.com/yourusername/dancri",
+
+    live:
+      "https://yourproject.vercel.app",
+
+    image:
+      "/projects/dancri.jpg",
+
+    featured: true
   }
-
 ];
 
 export default projects;

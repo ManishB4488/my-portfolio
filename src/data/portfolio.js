@@ -1,13 +1,33 @@
 const portfolio = {
-  name: "Your Name",
-  role: "Final Year B.Tech CSE Student",
-  subtitle: "Frontend Developer | UI/UX Enthusiast",
+  name: "Manish Bisht",
 
-  email: "your@email.com",
+  role: "Frontend Developer",
 
-  github: "https://github.com/yourusername",
+  intro:
+    "Building modern, responsive and user-friendly web applications using React, JavaScript and Tailwind CSS.",
 
-  linkedin: "https://linkedin.com/in/yourusername",
+  stats: [
+    {
+      value: "2",
+      label: "Projects"
+    },
+    {
+      value: "300+",
+      label: "DSA Problems"
+    },
+    {
+      value: "2027",
+      label: "Graduation"
+    }
+  ],
+
+  social: {
+    github: "https://github.com/yourusername",
+
+    linkedin: "https://linkedin.com/in/yourusername",
+
+    email: "mailto:your@email.com"
+  }
 };
 
 export default portfolio;

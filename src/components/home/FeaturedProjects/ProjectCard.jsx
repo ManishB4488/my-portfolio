@@ -1,80 +1,92 @@
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
+import Badge from "../../common/Badge";
+import Card from "../../common/Card";
+import FadeIn from "../../common/FadeIn";
+
 function ProjectCard({ project }) {
-
   return (
+    <FadeIn>
+      <Card className="group overflow-hidden p-0">
 
-    <div className="bg-zinc-900 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300">
+        {/* Image */}
 
-      <img
+        <div className="relative overflow-hidden">
 
-        src={project.image}
+          <img
+            src={project.image}
+            alt={project.title}
+            className="
+              h-64
+              w-full
+              object-cover
+              transition-all
+              duration-700
+              group-hover:scale-110
+            "
+          />
 
-        alt={project.title}
+          {/* Gradient Overlay */}
 
-        className="w-full h-60 object-cover"
+          <div
+            className="
+              absolute
+              inset-0
+              bg-gradient-to-t
+              from-black
+              via-black/20
+              to-transparent
+            "
+          />
 
-      />
+          {/* Tech Badges */}
 
-      <div className="p-6">
+          <div className="absolute bottom-4 left-4 flex flex-wrap gap-2">
 
-        <h3 className="text-2xl font-bold">
+            {project.technologies.slice(0, 3).map((tech) => (
+              <Badge key={tech}>{tech}</Badge>
+            ))}
 
-          {project.title}
-
-        </h3>
-
-        <p className="text-gray-400 mt-3">
-
-          {project.description}
-
-        </p>
-
-        <div className="flex flex-wrap gap-2 mt-6">
-
-          {project.technologies.map((tech)=>(
-
-            <span
-              key={tech}
-              className="px-3 py-1 rounded-full bg-cyan-500/20 text-cyan-400 text-sm"
-            >
-
-              {tech}
-
-            </span>
-
-          ))}
-
-        </div>
-
-        <div className="flex gap-4 mt-6">
-
-          <a
-            href={project.live}
-            target="_blank"
-            className="bg-cyan-500 px-5 py-2 rounded-lg"
-          >
-
-            Live Demo
-
-          </a>
-
-          <a
-            href={project.github}
-            target="_blank"
-            className="border border-gray-600 px-5 py-2 rounded-lg"
-          >
-
-            GitHub
-
-          </a>
+          </div>
 
         </div>
 
-      </div>
+        {/* Content */}
 
-    </div>
+        <div className="p-6">
 
+          <h3 className="text-2xl font-bold mb-3">
+            {project.title}
+          </h3>
+
+          <p className="text-zinc-400 leading-7">
+            {project.shortDescription}
+          </p>
+
+          <Link
+            to={`/projects/${project.slug}`}
+            className="
+              mt-6
+              inline-flex
+              items-center
+              gap-2
+              text-cyan-400
+              font-semibold
+              group-hover:gap-4
+              transition-all
+            "
+          >
+            View Case Study
+
+            <ArrowRight size={18} />
+
+          </Link>
+
+        </div>
+
+      </Card>
+    </FadeIn>
   );
-
 }
 
 export default ProjectCard;
